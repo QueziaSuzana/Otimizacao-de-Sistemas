@@ -16,3 +16,8 @@ An industrial optimization system that uses **Linear Programming** to maximize f
 ## Mathematical Approach
 
 Uses **Integer Linear Programming (ILP)** to solve:
+Maximize: Z = p₁x₁ + p₂x₂
+Subject to:
+a₁x₁ + a₂x₂ ≤ Raw Materials
+b₁x₁ + b₂x₂ ≤ Machine Hours
+x₁, x₂ ≥ 0 and integer
